@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Sign</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style type="text/css">
+             
+            .loginbox{
+    width: 320px;
+    height: 580px;
+    border: 1px solid #000;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: darkgray;
+    color: black;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: blue;
+}
+.loginbox a:hover{
+    color: darkgray;
+}
+        </style>
+    </head>
+    <body>
+        <div class="loginbox">
+        <h2> Sign in</h2>
+        <form>
+            <p>Name</p>
+            <input type="text"  placeholder="Enter Name">
+             <p>Surname</p>
+            <input type="text"  placeholder="Enter Surname">
+             <p>Username</p>
+            <input type="text"  placeholder="Enter Username">
+            <p>Password</p>
+             <input type="password" placeholder="Enter Password">
+               <p>Confirm password</p>
+             <input type="password" placeholder="Enter Password">
+        </form>
+             <form action="log.html">
+             <input type="submit" value="Sign in">
+             </form>
+         </div>
+    </body>
+</html>

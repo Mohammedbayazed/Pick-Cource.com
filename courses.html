@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>Courses</title>
+     <link rel="stylesheet" href="./style.css"> 
+    
+     <style type="text/css">
+      
+             ul {
+                list-style-type: none;
+                margin: 5px;
+                padding: 30px;
+                overflow: hidden;
+                border: 1px solid #e7e7e7;
+                text-align: center;
+ }
+          li{
+             font-size: 25px;
+             width: 290px;
+             height: 60px;
+             background-color: blue;
+             align-items: center;
+             margin-left: 10px;
+             display: inline-block;
+}
+           li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 18px 16px;
+                text-decoration: none;
+                
+}
+           li a:hover {
+                background-color: gray;
+              }
+              image{
+    cursor: pointer;        
+    width: 50px;
+    margin: 20px;
+    top: 100%;
+}
+              body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+ 
+  height: 100%;
+
+  
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+
+.img1 { background-image: url("Images/education pic.png"); }
+
+
+.bg-text{
+  background-color: rgb(0,0,0);
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  font-weight: bold;
+  border: 0px solid #f1f1f1;
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+   z-index: 2;
+  width: 1200px;
+  height: 650px;
+  padding: 20px;
+  text-align: center;
+}
+.bg-text h1{
+             background-color: #CCCCFF;
+             color: black;
+             margin: 0;
+             width:200px;
+             height: 50px;
+             padding: 5px 20px;
+             display: inline-block;
+}
+.month{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #fff;
+    top: 90%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: blue;
+    color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.month:hover{
+    background-color: white;
+    color: black;
+}
+.week{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #fff;
+    top: 90%;
+    right: 20%;
+    position: absolute;
+    transform: translate(50%,-50%);
+    background: blue;
+    color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+.week:hover{
+    background-color: white;
+    color: black;
+}
+ h2{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                list-style-type: none;
+                overflow: hidden;
+                text-decoration: underline;
+}
+ h3
+{
+               display: block;
+                color: yellow;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                list-style-type: none;
+                overflow: hidden;
+                font-size: 30px;
+                text-decoration: underline;
+                margin-bottom: 60px;
+}
+.product-container .product h3:hover{
+    cursor: pointer;
+    background: darkgray;
+    color: black;
+}
+.product-preview{
+    position: fixed;
+    top: 0; left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.product-preview .preview{
+    display:none;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin: 2rem;
+    width: 40rem;
+    border: 1px solid #000;
+}
+.product-preview .preview.active{ 
+    display: inline-block;
+}
+.product-preview .preview .fa-times{
+    position: absolute;
+    top: 1rem; right: 1.5rem;
+    cursor: pointer;
+    color: #000;
+    font-size: 4rem;
+}
+.product-preview .preview .fa-times:hover{
+    transform: rotate(90deg);
+}
+.product-preview .preview h3{
+    color: #444;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+}
+ p{
+    line-height: 1.5;
+    padding: 0rem 0;
+    font-size: 30px;
+    color: #fff;
+}
+.product-preview .preview .price{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #27ae60;
+}
+.product-preview .preview .button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.product-preview .preview .button a{
+    flex:1 1 16rem;
+    padding: 1rem;
+    font-size: 25px;
+    color: #fff;
+    border: 1px solid #444;
+    background-color: blue;
+    border-radius: 3px;
+}
+.product-preview .preview .button a:hover{
+    color: #000;
+    background-color: gray;
+}
+</style>
+    </head>
+    <body>
+        <img align="left" src="Images/logosite.png" alt=""/>
+        <nav>    <ul>
+                    <li><a href="homepage.html">Home Page</a></li>   
+                    <li><a href="courses.html">Courses</a></li> 
+                    <li><a href="contact-us.html">Contact Us</a></li>
+        </nav>  
+        
+            <div class="bg-image img1"></div>
+            <div class="bg-text">
+                <h1 style="font-size:30px">Courses</h1>
+                <h2>DISCOUNT!</h2> <br> 
+                <p>If you Pick Up 2 courses - 5% Discount<br>
+                   <br>If you Pick Up 3 courses - 10% Discount<br>
+                   <br> If you Pick Up more than 3 courses - 15% Discount<br></p>
+                <br><h3>The VAT (15%) will be included on the total amount.</h3>
+                <form action="month.html">
+            <button class="month">Six Months</button></form>
+       
+                <form action="week.html">
+           <button  class="week">Six Weeks</button></form>
+         
+            </div>
+    </body>
+</html>
